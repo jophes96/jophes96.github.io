@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+@import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline');
+
+/* figure these out ^^^  */
+
+body {
+    width: 600px;
+    margin: auto;
+    background: #EAF2EF;
+    text-align: center;
+    border: solid black;
+    padding-bottom: 25px;
+}
+
+h1{
+    border-bottom: 1px solid black;
+    font-family: 'Kumar One Outline', cursive;
+    text-align: center;
+    font-size: 40pt;
+}
+
+#message {
+    font-size: 18pt;
+    font-family: 'poor story', cursive;
+    text-align: center;
+    
+}
+
+#medium{
+    font-size: 18pt;
+    font-family: 'poor story', cursive;
+    float: .75*left;
+    border: solid black;
+    width: fit-content;
+
+}
+
+#smol{
+    font-size: 18pt;
+    font-family: 'poor story', cursive;
+    float: .75*left;
+    border: solid black;
+    width: fit-content;
+
+}
+
+#lorg{
+    font-size: 18pt;
+    font-family: 'poor story', cursive;
+    float: .75*left;
+    border: solid black;
+    width: fit-content;
+
+}
+
+#reset{
+    font-size: 18pt;
+    font-family: 'poor story', cursive;
+    float: .25* right;
+    border: solid black;
+    width: fit-content;
+
+}
+
+#undo{
+    font-size: 18pt;
+    font-family: 'poor story', cursive;
+    float: .25* right;
+    border: solid black;
+    width: fit-content;
+
+}
+
+#win{
+    font-size: 18pt;
+    font-family: 'poor story', cursive;
+    float: .25* right;
+    border: solid black;
+    width: fit-content;
+
+}
+
+#example{
+    font-size: 18pt;
+    font-family: 'poor story', cursive;
+    float: .25* right;
+    border: solid black;
+    width: fit-content;
+
+}
+
+#table {
+    border: 3px solid black;
+    table-layout: fixed;
+}
+
+
+td{
+    height: 5px;
+    width: 50px;
+    font-size: 35pt;
+    text-align:center;
+    color:black;
+    border: 2px solid black;
+}
+
+.tr{
+
+    text-align: center;
+    color: blue;
+}
