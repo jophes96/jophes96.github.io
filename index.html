@@ -1,4 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>"hey"</head>
+<html lang="en">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/main.css" type="text/CSS">
+    </head>
+    <body onload="init(); listeners();">
+        <h1></h1>
+        <div id="message"></div>
+        <br>
+        <button id="smol" onclick="easyGame()">Smol</button>
+        <button id="medium" onclick="medGame()">Med</button>
+        <button id="lorg" onclick="hardGame()">Lorg</button>  
+        <br>
+        <br>
+        <button id="undo" onclick="undo()" >Undo</button>
+        <button id="reset" onclick="resetGrid();">Reset Puzzle</button>
+        <button id="win" onclick="checkForWin()">Check for Win</button>
+        <br>
+        <br>
+        <br>
+        <script src="js/main.js"></script>
+    </body>
 </html>
