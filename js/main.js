@@ -271,7 +271,7 @@ function createGrid(height, width, top, bot, blackboxes){
 function move(){
         
         if(currentMove == lastCell && checkForWinner()){
-            alert("you the winner");
+            alert("winner!");
             fillLeadingCell();
             setTrailAppearance();
         } else if (currentMove == lastCell && !checkForWinner()){
